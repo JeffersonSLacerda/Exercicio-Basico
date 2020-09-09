@@ -1,0 +1,33 @@
+.todo label {
+    display: block;
+}
+
+.list>li {
+    list-style: none;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 40%;
+    margin: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.list>li>div {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.list>li>div>a {
+    position: absolute;
+    right: 0px;
+    padding: 0px 10px;
+}
+
+.list>li>.donetrue {
+    background-color: #00FF7F;
+}
+
+.list>li>.donefalse {
+    background-color: #87CEFA;
+}
